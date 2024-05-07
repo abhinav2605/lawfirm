@@ -1,0 +1,208 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+body{
+  background-color: black;
+  color: white;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+.Hero{
+  display: flex;
+  flex-direction: column;
+}
+.heroMain{
+  display: flex;
+  justify-content: space-around;
+}
+.grayText{
+  color: gray;
+}
+.heroContainer{
+  display: flex;
+  flex-direction: column;
+  width:40%;
+  justify-content: space-around;
+}
+.heroInput{
+  background-color: #FFFFFF;
+  padding:15px;
+  border-top-left-radius: 43px;
+  border-bottom-left-radius: 43px;
+  opacity: 10%;
+  width: 90%;
+}
+.divTalk{
+  display: flex;
+  width:80%
+}
+.heroBtn{
+  background-color: #E3B748;
+  border-top-right-radius: 43px;
+  border-bottom-right-radius: 43px;
+  padding: 15px;
+  cursor: pointer;
+}
+.flexcontainer{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.heroText{
+  color: white;
+
+  font-size: 66px;
+}
+.card{
+  width:25%;
+  border: solid 1px darkgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Menu{
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.Menu button{
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  border: black;
+  cursor: pointer;
+}
+.contact{
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border : solid 2px white;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.center{
+  text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+  width:80%;
+  margin-left: 5em;
+position: relative;
+}
+.imgtitle{
+  margin-left: 34px;
+    position: absolute;
+    margin-top: 164px;
+}
+.one{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: solid 1px white;
+  height: 7em;
+  margin:0.5em;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.two{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: solid 1px white;
+  height: 7em;
+  margin:0.5em;
+  border-radius: 10px;
+  overflow: hidden;
+
+
+}
+.three{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border: solid 1px white;
+  height: 7em;
+  margin:0.5em;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.four{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border: solid 1px white;
+  height: 7em;
+  margin:0.5em;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.five{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: solid 1px white;
+  height: 7em;
+  margin:0.5em;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.six{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: solid 1px white;
+  height: 7em;
+  margin:0.5em;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
